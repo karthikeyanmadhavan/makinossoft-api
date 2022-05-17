@@ -1,0 +1,9 @@
+D:\KM\Interview Machine Test\Makonis\Domain\bin\Debug\netcoreapp3.1\Domain.deps.json
+D:\KM\Interview Machine Test\Makonis\Domain\bin\Debug\netcoreapp3.1\Domain.dll
+D:\KM\Interview Machine Test\Makonis\Domain\bin\Debug\netcoreapp3.1\Domain.pdb
+D:\KM\Interview Machine Test\Makonis\Domain\obj\Debug\netcoreapp3.1\Domain.csproj.CoreCompileInputs.cache
+D:\KM\Interview Machine Test\Makonis\Domain\obj\Debug\netcoreapp3.1\Domain.AssemblyInfoInputs.cache
+D:\KM\Interview Machine Test\Makonis\Domain\obj\Debug\netcoreapp3.1\Domain.AssemblyInfo.cs
+D:\KM\Interview Machine Test\Makonis\Domain\obj\Debug\netcoreapp3.1\Domain.dll
+D:\KM\Interview Machine Test\Makonis\Domain\obj\Debug\netcoreapp3.1\Domain.pdb
+D:\KM\Interview Machine Test\Makonis\Domain\obj\Debug\netcoreapp3.1\Domain.csprojAssemblyReference.cache

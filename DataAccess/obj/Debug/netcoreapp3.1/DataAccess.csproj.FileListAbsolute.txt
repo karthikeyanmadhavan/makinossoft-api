@@ -1,0 +1,16 @@
+D:\KM\Interview Machine Test\Makonis\DataAccess\bin\Debug\netcoreapp3.1\Domain.dll
+D:\KM\Interview Machine Test\Makonis\DataAccess\bin\Debug\netcoreapp3.1\IService.dll
+D:\KM\Interview Machine Test\Makonis\DataAccess\bin\Debug\netcoreapp3.1\Models.dll
+D:\KM\Interview Machine Test\Makonis\DataAccess\obj\Debug\netcoreapp3.1\DataAccess.csprojAssemblyReference.cache
+D:\KM\Interview Machine Test\Makonis\DataAccess\obj\Debug\netcoreapp3.1\DataAccess.AssemblyInfoInputs.cache
+D:\KM\Interview Machine Test\Makonis\DataAccess\obj\Debug\netcoreapp3.1\DataAccess.AssemblyInfo.cs
+D:\KM\Interview Machine Test\Makonis\DataAccess\bin\Debug\netcoreapp3.1\DataAccess.deps.json
+D:\KM\Interview Machine Test\Makonis\DataAccess\bin\Debug\netcoreapp3.1\DataAccess.dll
+D:\KM\Interview Machine Test\Makonis\DataAccess\bin\Debug\netcoreapp3.1\DataAccess.pdb
+D:\KM\Interview Machine Test\Makonis\DataAccess\bin\Debug\netcoreapp3.1\IService.pdb
+D:\KM\Interview Machine Test\Makonis\DataAccess\bin\Debug\netcoreapp3.1\Domain.pdb
+D:\KM\Interview Machine Test\Makonis\DataAccess\bin\Debug\netcoreapp3.1\Models.pdb
+D:\KM\Interview Machine Test\Makonis\DataAccess\obj\Debug\netcoreapp3.1\DataAccess.csproj.CoreCompileInputs.cache
+D:\KM\Interview Machine Test\Makonis\DataAccess\obj\Debug\netcoreapp3.1\DataAccess.csproj.CopyComplete
+D:\KM\Interview Machine Test\Makonis\DataAccess\obj\Debug\netcoreapp3.1\DataAccess.dll
+D:\KM\Interview Machine Test\Makonis\DataAccess\obj\Debug\netcoreapp3.1\DataAccess.pdb

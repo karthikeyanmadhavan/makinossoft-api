@@ -1,0 +1,242 @@
+{
+  "version": 3,
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "AgileObjects.AgileMapper/1.8.1": {
+        "type": "package",
+        "dependencies": {
+          "AgileObjects.ReadableExpressions": "2.6.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/AgileObjects.AgileMapper.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/AgileObjects.AgileMapper.dll": {}
+        }
+      },
+      "AgileObjects.NetStandardPolyfills/1.5.0": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/AgileObjects.NetStandardPolyfills.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/AgileObjects.NetStandardPolyfills.dll": {}
+        }
+      },
+      "AgileObjects.ReadableExpressions/2.6.0": {
+        "type": "package",
+        "dependencies": {
+          "AgileObjects.NetStandardPolyfills": "1.5.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/AgileObjects.ReadableExpressions.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/AgileObjects.ReadableExpressions.dll": {}
+        }
+      },
+      "Common/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "compile": {
+          "bin/placeholder/Common.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Common.dll": {}
+        }
+      },
+      "Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "compile": {
+          "bin/placeholder/Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Domain.dll": {}
+        }
+      },
+      "IService/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "dependencies": {
+          "Domain": "1.0.0",
+          "Models": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/IService.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/IService.dll": {}
+        }
+      },
+      "Models/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "compile": {
+          "bin/placeholder/Models.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Models.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "AgileObjects.AgileMapper/1.8.1": {
+      "sha512": "PeCtEaSuHHRq/p9dxzVCFrP5RR8UgBHC1MMOmWHD714MY/YcCdjHCw741rb1HD/6uLcUvRScLK5vRNP0zsDTHA==",
+      "type": "package",
+      "path": "agileobjects.agilemapper/1.8.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "agileobjects.agilemapper.1.8.1.nupkg.sha512",
+        "agileobjects.agilemapper.nuspec",
+        "lib/net35/AgileObjects.AgileMapper.dll",
+        "lib/net35/AgileObjects.AgileMapper.xml",
+        "lib/net40/AgileObjects.AgileMapper.dll",
+        "lib/net40/AgileObjects.AgileMapper.xml",
+        "lib/netstandard1.0/AgileObjects.AgileMapper.dll",
+        "lib/netstandard1.0/AgileObjects.AgileMapper.xml",
+        "lib/netstandard1.3/AgileObjects.AgileMapper.dll",
+        "lib/netstandard1.3/AgileObjects.AgileMapper.xml",
+        "lib/netstandard2.0/AgileObjects.AgileMapper.dll",
+        "lib/netstandard2.0/AgileObjects.AgileMapper.xml"
+      ]
+    },
+    "AgileObjects.NetStandardPolyfills/1.5.0": {
+      "sha512": "QCMU8s2hsfMJMYzC1weCtwJfzA6JRL8LKKRvujpWMzf3rxPkjJLyftvZYQUz3HuQK4b3Y/POpsOilz2E9rBJ1g==",
+      "type": "package",
+      "path": "agileobjects.netstandardpolyfills/1.5.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "agileobjects.netstandardpolyfills.1.5.0.nupkg.sha512",
+        "agileobjects.netstandardpolyfills.nuspec",
+        "lib/net35/AgileObjects.NetStandardPolyfills.dll",
+        "lib/net35/AgileObjects.NetStandardPolyfills.xml",
+        "lib/net40/AgileObjects.NetStandardPolyfills.dll",
+        "lib/net40/AgileObjects.NetStandardPolyfills.xml",
+        "lib/netstandard1.0/AgileObjects.NetStandardPolyfills.dll",
+        "lib/netstandard1.0/AgileObjects.NetStandardPolyfills.xml",
+        "lib/netstandard2.0/AgileObjects.NetStandardPolyfills.dll",
+        "lib/netstandard2.0/AgileObjects.NetStandardPolyfills.xml"
+      ]
+    },
+    "AgileObjects.ReadableExpressions/2.6.0": {
+      "sha512": "DdyK+6NHdoyLn6rGHmhZiJMubmlUXx0sQNflvXk/IK8lnnLKnIgRD3nhYPSVec98yvUFKqdufKX/Le5wYAu+Dw==",
+      "type": "package",
+      "path": "agileobjects.readableexpressions/2.6.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "agileobjects.readableexpressions.2.6.0.nupkg.sha512",
+        "agileobjects.readableexpressions.nuspec",
+        "lib/net35/AgileObjects.ReadableExpressions.dll",
+        "lib/net35/AgileObjects.ReadableExpressions.xml",
+        "lib/net40/AgileObjects.ReadableExpressions.dll",
+        "lib/net40/AgileObjects.ReadableExpressions.xml",
+        "lib/netstandard1.0/AgileObjects.ReadableExpressions.dll",
+        "lib/netstandard1.0/AgileObjects.ReadableExpressions.xml",
+        "lib/netstandard2.0/AgileObjects.ReadableExpressions.dll",
+        "lib/netstandard2.0/AgileObjects.ReadableExpressions.xml"
+      ]
+    },
+    "Common/1.0.0": {
+      "type": "project",
+      "path": "../Common/Common.csproj",
+      "msbuildProject": "../Common/Common.csproj"
+    },
+    "Domain/1.0.0": {
+      "type": "project",
+      "path": "../Domain/Domain.csproj",
+      "msbuildProject": "../Domain/Domain.csproj"
+    },
+    "IService/1.0.0": {
+      "type": "project",
+      "path": "../IService/IService.csproj",
+      "msbuildProject": "../IService/IService.csproj"
+    },
+    "Models/1.0.0": {
+      "type": "project",
+      "path": "../Models/Models.csproj",
+      "msbuildProject": "../Models/Models.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    ".NETCoreApp,Version=v3.1": [
+      "AgileObjects.AgileMapper >= 1.8.1",
+      "Common >= 1.0.0",
+      "IService >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\Admin\\.nuget\\packages\\": {},
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "D:\\KM\\Interview Machine Test\\Makonis-API\\Service\\Service.csproj",
+      "projectName": "Service",
+      "projectPath": "D:\\KM\\Interview Machine Test\\Makonis-API\\Service\\Service.csproj",
+      "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
+      "outputPath": "D:\\KM\\Interview Machine Test\\Makonis-API\\Service\\obj\\",
+      "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+      ],
+      "configFilePaths": [
+        "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "netcoreapp3.1"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "D:\\Projects\\Raziel Health\\Nuget_Repo": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "projectReferences": {
+            "D:\\KM\\Interview Machine Test\\Makonis-API\\Common\\Common.csproj": {
+              "projectPath": "D:\\KM\\Interview Machine Test\\Makonis-API\\Common\\Common.csproj"
+            },
+            "D:\\KM\\Interview Machine Test\\Makonis-API\\IService\\IService.csproj": {
+              "projectPath": "D:\\KM\\Interview Machine Test\\Makonis-API\\IService\\IService.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "netcoreapp3.1": {
+        "dependencies": {
+          "AgileObjects.AgileMapper": {
+            "target": "Package",
+            "version": "[1.8.1, )"
+          }
+        },
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
+        ],
+        "assetTargetFallback": true,
+        "warn": true
+      }
+    }
+  }
+}

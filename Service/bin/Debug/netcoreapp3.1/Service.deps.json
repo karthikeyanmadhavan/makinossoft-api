@@ -1,0 +1,123 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "Service/1.0.0": {
+        "dependencies": {
+          "AgileObjects.AgileMapper": "1.8.1",
+          "Common": "1.0.0",
+          "IService": "1.0.0"
+        },
+        "runtime": {
+          "Service.dll": {}
+        }
+      },
+      "AgileObjects.AgileMapper/1.8.1": {
+        "dependencies": {
+          "AgileObjects.ReadableExpressions": "2.6.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/AgileObjects.AgileMapper.dll": {
+            "assemblyVersion": "1.8.1.0",
+            "fileVersion": "1.8.1.0"
+          }
+        }
+      },
+      "AgileObjects.NetStandardPolyfills/1.5.0": {
+        "runtime": {
+          "lib/netstandard2.0/AgileObjects.NetStandardPolyfills.dll": {
+            "assemblyVersion": "1.5.0.0",
+            "fileVersion": "1.5.0.0"
+          }
+        }
+      },
+      "AgileObjects.ReadableExpressions/2.6.0": {
+        "dependencies": {
+          "AgileObjects.NetStandardPolyfills": "1.5.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/AgileObjects.ReadableExpressions.dll": {
+            "assemblyVersion": "2.6.0.0",
+            "fileVersion": "2.6.0.0"
+          }
+        }
+      },
+      "Common/1.0.0": {
+        "runtime": {
+          "Common.dll": {}
+        }
+      },
+      "Domain/1.0.0": {
+        "runtime": {
+          "Domain.dll": {}
+        }
+      },
+      "IService/1.0.0": {
+        "dependencies": {
+          "Domain": "1.0.0",
+          "Models": "1.0.0"
+        },
+        "runtime": {
+          "IService.dll": {}
+        }
+      },
+      "Models/1.0.0": {
+        "runtime": {
+          "Models.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Service/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "AgileObjects.AgileMapper/1.8.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-i+t7VYvaC+mbBm8Z2psoLE4BJJ+NcWhJoFsmKdVJ2vAM53TUyIw1J7fgHADpiA3++xFyOx/IaXT/DZ4i0zzBZQ==",
+      "path": "agileobjects.agilemapper/1.8.1",
+      "hashPath": "agileobjects.agilemapper.1.8.1.nupkg.sha512"
+    },
+    "AgileObjects.NetStandardPolyfills/1.5.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-+eWxs3HINdHPZpXALiPIHilHnsuKCj1nxoyZlgZSxgv5OVQPwt7IWRYtOx+4/6x0qO8cjXQuLalrxouT42EZzQ==",
+      "path": "agileobjects.netstandardpolyfills/1.5.0",
+      "hashPath": "agileobjects.netstandardpolyfills.1.5.0.nupkg.sha512"
+    },
+    "AgileObjects.ReadableExpressions/2.6.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-GfyVg7MRALnM182yHN86yMDd20rOAwUmjkcrJoPnIlPtSwunUSOiXJ7ZotyhtWTNno4HUfa6q85ZSwwOgfDdYg==",
+      "path": "agileobjects.readableexpressions/2.6.0",
+      "hashPath": "agileobjects.readableexpressions.2.6.0.nupkg.sha512"
+    },
+    "Common/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "IService/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Models/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

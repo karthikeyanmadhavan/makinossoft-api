@@ -1,0 +1,14 @@
+D:\KM\Interview Machine Test\Makonis\IService\bin\Debug\netcoreapp3.1\IService.deps.json
+D:\KM\Interview Machine Test\Makonis\IService\bin\Debug\netcoreapp3.1\IService.dll
+D:\KM\Interview Machine Test\Makonis\IService\bin\Debug\netcoreapp3.1\IService.pdb
+D:\KM\Interview Machine Test\Makonis\IService\bin\Debug\netcoreapp3.1\Domain.dll
+D:\KM\Interview Machine Test\Makonis\IService\bin\Debug\netcoreapp3.1\Models.dll
+D:\KM\Interview Machine Test\Makonis\IService\bin\Debug\netcoreapp3.1\Domain.pdb
+D:\KM\Interview Machine Test\Makonis\IService\bin\Debug\netcoreapp3.1\Models.pdb
+D:\KM\Interview Machine Test\Makonis\IService\obj\Debug\netcoreapp3.1\IService.csprojAssemblyReference.cache
+D:\KM\Interview Machine Test\Makonis\IService\obj\Debug\netcoreapp3.1\IService.csproj.CoreCompileInputs.cache
+D:\KM\Interview Machine Test\Makonis\IService\obj\Debug\netcoreapp3.1\IService.AssemblyInfoInputs.cache
+D:\KM\Interview Machine Test\Makonis\IService\obj\Debug\netcoreapp3.1\IService.AssemblyInfo.cs
+D:\KM\Interview Machine Test\Makonis\IService\obj\Debug\netcoreapp3.1\IService.csproj.CopyComplete
+D:\KM\Interview Machine Test\Makonis\IService\obj\Debug\netcoreapp3.1\IService.dll
+D:\KM\Interview Machine Test\Makonis\IService\obj\Debug\netcoreapp3.1\IService.pdb

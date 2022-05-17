@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "6idR4b95UyAD35qMkto6Ixkc6iX84t63UfKSfGvTX2oU9Hr2hr3oAqJ9RmMuoED66icX0/GJrxSrZyXwAFjJsg==",
+  "success": true,
+  "projectFilePath": "D:\\KM\\Interview Machine Test\\Makonis\\Service\\Service.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Admin\\.nuget\\packages\\agileobjects.agilemapper\\1.8.1\\agileobjects.agilemapper.1.8.1.nupkg.sha512",
+    "C:\\Users\\Admin\\.nuget\\packages\\agileobjects.netstandardpolyfills\\1.5.0\\agileobjects.netstandardpolyfills.1.5.0.nupkg.sha512",
+    "C:\\Users\\Admin\\.nuget\\packages\\agileobjects.readableexpressions\\2.6.0\\agileobjects.readableexpressions.2.6.0.nupkg.sha512"
+  ],
+  "logs": []
+}
