@@ -11,18 +11,18 @@
         }
         public ApiResponse(T content)
         {
-            Result = content;
+            Data = content;
         }
 
         public ApiResponse(T content, string errorMessage)
         {
-            Result = content;
+            Data = content;
             Message = errorMessage;
         }
 
         public ApiResponse(T content, int messageCode)
         {
-            Result = content;
+            Data = content;
             Code = messageCode;
         }
 
@@ -37,7 +37,7 @@
         /// <summary>
         /// get or sets Result
         /// </summary>
-        public T Result { get; set; }
+        public T Data { get; set; }
     }
 
     public class ApiResponse : ApiResponse<object>
