@@ -1,15 +1,13 @@
 ﻿using Models;
-using System;
 using System.Collections.Generic;
-using System.IO;
 using System.Threading.Tasks;
 
 namespace IService
 {
     public interface IPersonService
     {
-        public Task<byte[]> Download(string filePath);
-        public Task<bool> Save(string filePath, PersonModel personModel);
-        public Task<List<PersonModel>> List(string filePath);
+        Task<byte[]> Download(string filePath);
+        Task<bool> Save(string filePath, PersonModel personModel);
+        Task<List<PersonModel>> List(string filePath);
     }
 }
