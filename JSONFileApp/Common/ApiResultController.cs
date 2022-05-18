@@ -1,7 +1,4 @@
-﻿using Microsoft.AspNetCore.Mvc;
-using System.Net;
-
-namespace JSONFileAPI.Common
+﻿namespace JSONFileAPI.Common
 {
     public class ApiResultController : ControllerBase
     {

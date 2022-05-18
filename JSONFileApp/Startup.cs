@@ -36,7 +36,16 @@ namespace JSONFileAPI
                     return ApiValidationFilter.CustomResponse(actionContext);
                 };
             });
-
+            services.AddCors(options =>
+            {
+                options.AddPolicy(name: "AllowOrigin",
+                    builder =>
+                    {
+                        builder.WithOrigins("http://localhost:4200")
+                                            .AllowAnyHeader()
+                                            .AllowAnyMethod();
+                    });
+            });
             services.AddSwaggerGen(c =>
             {
                 c.SwaggerDoc("v1", new Microsoft.OpenApi.Models.OpenApiInfo
@@ -67,6 +76,8 @@ namespace JSONFileAPI
                 app.UseDeveloperExceptionPage();
             }
 
+            app.UseCors("AllowOrigin");
+
             app.UseHttpsRedirection();
 
             app.UseRouting();
@@ -80,7 +91,6 @@ namespace JSONFileAPI
             {
                 endpoints.MapControllers();
             });
-
             app.UseSwagger();
             app.UseSwaggerUI();
         }

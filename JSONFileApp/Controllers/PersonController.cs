@@ -1,10 +1,4 @@
-﻿using IService;
-using JSONFileAPI.Common;
-using Microsoft.AspNetCore.Mvc;
-using Microsoft.Extensions.Configuration;
-using Models;
-using System.Collections.Generic;
-using System.Threading.Tasks;
+﻿using JSONFileAPI.Common;
 
 namespace JSONFileAPI.Controllers
 {
